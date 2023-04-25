@@ -1,0 +1,350 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Form Forgot Password */
+.forgot__password {
+  padding: 0 20px;
+}
+
+.forgot__password--wrapper {
+  max-width: 881px;
+  width: 100%;
+  margin: 51px auto 117px auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.forgot__password--container {
+  display: flex;
+}
+
+.forgot__password--container-left {
+  background: url(./images/forgot-password-img.png) no-repeat center/cover;
+  padding: 0 0 30px 24px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.forgot__password--container-left-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #59DCCC;
+}
+
+.forgot__password--container-left-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-right: 20px;
+}
+
+.forgot__password--container-right {
+  width: 50%;
+  padding: 53px 44px;
+}
+
+.forgot__password--img-box {
+  width: 54px;
+  height: 54px;
+  margin: 0 auto;
+}
+
+.forgot__password--img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.forgot__password--container-right-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #454545;
+}
+
+.forgot__password--container-right-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #A5A5A5;
+  margin-bottom: 40px;
+}
+
+.forgot__password--form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #CDCDD3;
+  margin-bottom: 5px;
+}
+
+.forgot__password--form-email-input {
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 2px;
+  outline: 0;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 23px;
+}
+
+.forgot__password--form-send-btn {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #59DCCC;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 5px 0;
+  max-width: 100%;
+  width: 100%;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.forgot__password--form-send-btn:hover {
+  border-color: #59DCCC;
+  background: transparent;
+  color: #59DCCC;
+}
+
+.forgot__password--form-link-btn {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #CDCDD3;
+  transition: all .3s ease-in-out;
+}
+
+.forgot__password--form-link-btn:hover {
+  color: #59DCCC;
+}
+
+/* Form New Password */
+.new__password {
+  padding: 0 20px;
+}
+
+.new__password--wrapper {
+  max-width: 881px;
+  width: 100%;
+  margin: 51px auto 117px auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.new__password--container {
+  display: flex;
+}
+
+.new__password--container-left {
+  background: url(./images/new-password.png) no-repeat center/cover;
+  padding: 0 0 30px 24px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.new__password--container-left-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #59DCCC;
+}
+
+.new__password--container-left-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-right: 20px;
+}
+
+.new__password--container-right {
+  width: 50%;
+  padding: 53px 44px;
+}
+
+.new__password--container-right-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #454545;
+}
+
+.new__password--container-right-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #A5A5A5;
+  margin-bottom: 40px;
+}
+
+.new__password--form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #CDCDD3;
+  margin-bottom: 5px;
+}
+
+.new__password--form-email-input {
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 2px;
+  outline: 0;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 23px;
+}
+
+.new__password--form-btns {
+  display: flex;
+  align-items: center;
+}
+
+.new__password--form-submit-btn {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #59DCCC;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  transition: all .3s ease-in-out;
+  padding: 5px 0;
+  max-width: 65%;
+  width: 100%;
+  cursor: pointer;
+  margin-right: 21px;
+}
+
+.new__password--form-submit-btn:hover {
+  border-color: #59DCCC;
+  background: transparent;
+  color: #59DCCC;
+}
+
+.new__password--form-cancel-btn {
+  background: #FFFFFF;
+  border: 1px solid #C7C7C7;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #59DCCC;
+  padding: 5px 0;
+  max-width: 35%;
+  width: 100%;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.new__password--form-cancel-btn:hover {
+  background: #59DCCC;
+  color: #fff;
+}
+
+/* Media Queries Form New Password */
+@media (max-width: 905px) {
+  .new__password--container-left-title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .new__password--container-right-title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Media Queries Form Forgot Password */
+@media (max-width: 776px) {
+  .forgot__password--container {
+    flex-direction: column;
+  }
+
+  .forgot__password--container-left {
+    width: 100%;
+    padding: 100px 20px;
+  }
+
+  .forgot__password--container-right {
+    width: 100%;
+  }
+
+  .new__password--container {
+    flex-direction: column;
+  }
+
+  .new__password--container-left {
+    width: 100%;
+    padding: 100px 20px;
+  }
+
+  .new__password--container-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .forgot__password--container-left-title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .forgot__password--container-right {
+    padding: 30px 20px;
+  }
+
+  .forgot__password--img-box {
+    margin-bottom: 10px;
+  }
+
+  .forgot__password--container-right-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
